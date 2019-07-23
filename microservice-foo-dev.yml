@@ -1,0 +1,14 @@
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    service-url:
+      defaultZone: http://wysssss:123456@localhost:18761/eureka
+
+server:
+  port: 18763
+spring:
+  application:
+    name: microservice-foo
+  #name: service-hi
